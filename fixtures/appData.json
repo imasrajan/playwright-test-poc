@@ -1,0 +1,13 @@
+{
+  "orangeHRM": {
+    "baseUrl": "https://opensource-demo.orangehrmlive.com",
+    "admin": {
+      "username": "Admin",
+      "password": "admin123"
+    },
+    "invalidAdmin": {
+      "username": "Admin",
+      "password": "wrongPass123"
+    }
+  }
+}
