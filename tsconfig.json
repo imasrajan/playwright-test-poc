@@ -2,12 +2,27 @@
   "compilerOptions": {
     "target": "ESNext",
     "module": "commonjs",
+    "moduleResolution": "node",
     "strict": true,
     "esModuleInterop": true,
-    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+
+    // IMPORTANT FOR JSON IMPORTS
     "resolveJsonModule": true,
-    "isolatedModules": true,
+
+    // Types used by the project
+    "types": ["node", "@playwright/test"],
+
     "outDir": "dist"
   },
-  "include": ["pages", "tests", "fixtures"]
+
+  "include": [
+    "tests",
+    "pages",
+    "fixtures",
+    "utils",
+    "playwright.config.ts"
+  ]
 }

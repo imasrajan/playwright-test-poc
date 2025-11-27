@@ -1,13 +1,44 @@
 {
   "orangeHRM": {
     "baseUrl": "https://opensource-demo.orangehrmlive.com",
-    "admin": {
-      "username": "Admin",
-      "password": "admin123"
-    },
-    "invalidAdmin": {
-      "username": "Admin",
-      "password": "wrongPass123"
-    }
+
+    "validUsers": [
+      { "id": "V01", "username": "Admin", "password": "admin123" },
+      { "id": "V02", "username": "Admin", "password": "admin123" },
+      { "id": "V03", "username": "Admin", "password": "admin123" },
+      { "id": "V04", "username": "Admin", "password": "admin123" },
+      { "id": "V05", "username": "Admin", "password": "admin123" },
+      { "id": "V06", "username": "Admin", "password": "admin123" },
+      { "id": "V07", "username": "Admin", "password": "admin123" },
+      { "id": "V08", "username": "Admin", "password": "admin123" },
+      { "id": "V09", "username": "Admin", "password": "admin123" },
+      { "id": "V10", "username": "Admin", "password": "admin123" }
+    ],
+
+    "invalidUsernameUsers": [
+      { "id": "IU01", "username": "WrongUser01", "password": "admin123" },
+      { "id": "IU02", "username": "WrongUser02", "password": "admin123" },
+      { "id": "IU03", "username": "WrongUser03", "password": "admin123" },
+      { "id": "IU04", "username": "WrongUser04", "password": "admin123" },
+      { "id": "IU05", "username": "WrongUser05", "password": "admin123" },
+      { "id": "IU06", "username": "WrongUser06", "password": "admin123" },
+      { "id": "IU07", "username": "WrongUser07", "password": "admin123" },
+      { "id": "IU08", "username": "WrongUser08", "password": "admin123" },
+      { "id": "IU09", "username": "WrongUser09", "password": "admin123" },
+      { "id": "IU10", "username": "WrongUser10", "password": "admin123" }
+    ],
+
+    "invalidPasswordUsers": [
+      { "id": "IP01", "username": "Admin", "password": "WrongPass01" },
+      { "id": "IP02", "username": "Admin", "password": "WrongPass02" },
+      { "id": "IP03", "username": "Admin", "password": "WrongPass03" },
+      { "id": "IP04", "username": "Admin", "password": "WrongPass04" },
+      { "id": "IP05", "username": "Admin", "password": "WrongPass05" },
+      { "id": "IP06", "username": "Admin", "password": "WrongPass06" },
+      { "id": "IP07", "username": "Admin", "password": "WrongPass07" },
+      { "id": "IP08", "username": "Admin", "password": "WrongPass08" },
+      { "id": "IP09", "username": "Admin", "password": "WrongPass09" },
+      { "id": "IP10", "username": "Admin", "password": "WrongPass10" }
+    ]
   }
 }

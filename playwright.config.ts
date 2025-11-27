@@ -3,7 +3,7 @@ import { PlaywrightTestConfig } from '@playwright/test';
 const config: PlaywrightTestConfig = {
   testDir: './tests',
 
-  timeout: 30000,
+  timeout: 20000,
   expect: {
     timeout: 5000
   },
@@ -14,10 +14,12 @@ const config: PlaywrightTestConfig = {
     launchOptions: {
       slowMo: 350
     },
+
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
-    trace: 'on-first-retry'
+    trace: 'on-first-retry',
   },
+  workers: 1,
 
   retries: 1,
 
